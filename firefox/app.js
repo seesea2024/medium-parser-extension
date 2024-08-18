@@ -112,7 +112,7 @@ function runMedium(url) {
   // default settings
   let defaultSettings = {
     openInNewTab: true,
-    redirectOption: 'google',
+    redirectOption: 'readmedium',
     showOption: 'page',
   };
   browser.storage.sync.get('mediumParserSettings', function (result) {

@@ -18,8 +18,8 @@
 ![](https://img.shields.io/chrome-web-store/d/bdkfodcnmgegolifeafnpbgjnjfohado.svg?style=flat-square)
 
 Or, Install manually
-1. Download this repo as a [ZIP file from GitHub](https://github.com/Xatta-Trone/medium-parser-extension/archive/refs/heads/main.zip).
-1. Unzip the file and you should have a folder named `medium-parser-extension-main`.
+1. Download this repo as a [ZIP file from GitHub](https://github.com/seesea2024/medium-parser-extension/archive/refs/tags/1.5.6.zip).
+1. Unzip the file and you should have a folder named `medium-parser-extension-1.5.6`.
 1. In Chrome/Edge go to the extensions page (`chrome://extensions` or `edge://extensions`).
 1. Enable Developer Mode by clicking the toggle button on the top right side of the browser.
 1. Drag the `chrome` folder anywhere on the page to import it (do not delete the folder afterward).
