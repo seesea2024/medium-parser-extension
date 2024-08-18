@@ -30,10 +30,11 @@ const ignoreURLs = [
 ];
 
 const urlOptions = {
+  /*
   google: {
     text: 'Open in Google Cache',
     uri: `http://webcache.googleusercontent.com/search?q=cache:#{url}#&strip=0&vwsrc=1&referer=medium-parser`,
-  },
+  },*/
   readmedium: {
     text: 'Open in Read-Medium',
     uri: `https://readmedium.com/en/#{url}#`,
@@ -50,10 +51,11 @@ const urlOptions = {
     text: 'Open in Archive.is',
     uri: `https://archive.is?url=#{url}#&run=1&referer=medium-parser`,
   },
+  /*
   proxy: {
     text: 'Open in Proxy API',
     uri: `https://medium-parser.vercel.app/?url=#{url}#`,
-  },
+  },*/
 };
 
 function init() {
@@ -110,7 +112,7 @@ function runMedium(url) {
   // default settings
   let defaultSettings = {
     openInNewTab: true,
-    redirectOption: 'google',
+    redirectOption: 'readmedium',
     showOption: 'page',
   };
   chrome.storage.sync.get('mediumParserSettings', function (result) {

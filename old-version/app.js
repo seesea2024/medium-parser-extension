@@ -108,20 +108,24 @@ function runMedium(url) {
     );
 
     let buttons = [
+      /*
       createButton(
         "Open in Google Cache",
         `http://webcache.googleusercontent.com/search?q=cache:${url}&strip=0&vwsrc=1&referer=medium-parser`
       ),
+      */
       createButton("Open in Read-Medium", `https://readmedium.com/en/${url}`),
       createButton("Open in Freedium", `https://freedium.cfd/${url}`),
+      
       createButton(
         "Open in Archive",
         `https://archive.today?url=${url}&run=1&referer=medium-parser`
       ),
+      /*
       createButton(
         "Open in Proxy API",
         `https://medium-parser.vercel.app/?url=${url}`
-      ),
+      ),*/
       createMessageElement(),
       createSupportElement(),
     ];
